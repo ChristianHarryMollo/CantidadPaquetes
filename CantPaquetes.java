@@ -55,12 +55,9 @@ public class CantPaquetes
 		System.out.println("Prueba 4\r\n" + "Input: " + " 18 ----" + " {1 , 3 , 5 , 7}\r\n" + "Output: " + d + "\r\n");
 		System.out.println("Prueba 5\r\n" + "Input: " + " 360 ---" + " {1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9}\r\n" + "Output: " + e + "\r\n");
 		System.out.println("Prueba 6\r\n" + "Input: " + " 360 ---" + " {1 , 2 , 5 , 7 , 11 , 13}\r\n" + "Output: " + f + "\r\n");
-		System.out.println("Prueba 7\r\n" + "Input: " + " 1360 --" + " {1 , 2 , 5 , 7 , 11 , 13}\r\n" + "Output: " + "106");
-		
-		
-		
-		
+		System.out.println("Prueba 7\r\n" + "Input: " + " 1360 --" + " {1 , 2 , 5 , 7 , 11 , 13}\r\n" + "Output: " + "106");		
 	}
+	
     private int[][] matrizCambio;
     private int[] vectorPesos;
     private int pesTotal;
@@ -148,5 +145,4 @@ public class CantPaquetes
         else 
             return b;
     }
-
 }
