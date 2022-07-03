@@ -54,9 +54,9 @@ public class CantPaquetesFuerzaBruta {
          int k2 = 6;
          System.out.println("Prueba 3:  \n    Input = 6 --- {1, 3, 4 }  ");
          System.out.println("    Output: " + calcularPaquetes(k2, paq2) + "\n");              	
-         int[] paq3 = {1, 3, 5, 6, 7 };
+         int[] paq3 = {1, 3, 5, 7 };
          int k3 = 18;
-         System.out.println("Prueba 4:  \n    Input = 18 --- {1, 3, 5, 6, 7 }  ");
+         System.out.println("Prueba 4:  \n    Input = 18 --- {1, 3, 5, 7 }  ");
          System.out.println("    Output: " + calcularPaquetes(k3, paq3) + "\n");
          int[] paq4 = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
          int k4 = 360;
